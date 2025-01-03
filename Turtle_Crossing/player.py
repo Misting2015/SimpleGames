@@ -1,9 +1,9 @@
+# Import Python Standard Libraries
 from turtle import Turtle
 import random
 
 
 class Player(Turtle):
-    
     def __init__(self):
         super().__init__()
         self.initialize_player()
